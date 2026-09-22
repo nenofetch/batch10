@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./tugas3/assets/css/style.css --watch "
+    },
+    "dependencies": {
+        "@tailwindcss/cli": "^4.3.3",
+        "tailwindcss": "^4.3.3"
+    },
+    "devDependencies": {
+        "daisyui": "^5.7.43"
+    }
+}
